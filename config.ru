@@ -4,8 +4,13 @@ require "rack/contrib/response_headers"
 require "rack/contrib/static_cache"
 require "rack/contrib/try_static"
 
+require File.expand_path("../lib/legacy_redirect", __FILE__)
+
 # Properly compress the output if the client can handle it.
 use Rack::Deflater
+
+# Redirect the legacy URLs that point to www.vagrantup.com
+use HashiCorp::Rack::LegacyRedirect
 
 # Set the "forever expire" cache headers for these static assets. Since
 # we hash the contents of the assets to determine filenames, this is safe
