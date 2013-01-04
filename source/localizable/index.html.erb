@@ -7,8 +7,8 @@
 				<div class="row">
 					<div class="span8 offset2">
 						<hgroup>
-						<h1>Development<br>environments<br>made easy.</h1>
-						<h2>Create and configure lightweight, reproducible, and portable development environments.</h2>
+						<h1><%= I18n.t :index_h1_line1 %><br><%= I18n.t :index_h1_line2 %><br><%= I18n.t :index_h1_line3 %></h1>
+						<h2><%= I18n.t :index_h2 %></h2>
 						</hgroup>
 					</div> <!-- /span -->
 				</div> <!-- row -->
@@ -16,13 +16,13 @@
 				<div class="row">
 					<a href="http://downloads.vagrantup.com/">
 						<div class="button span3 offset3">
-							<span>download</span>
+							<span><%= I18n.t :index_button_download %></span>
 						</div> <!-- /span -->
 					</a>
 
 					<a href="http://docs.vagrantup.com/v1/docs/getting-started/index.html">
 						<div class="button button span3">
-							<span>get started</span>
+							<span><%= I18n.t :index_button_get_started %></span>
 						</div> <!-- /span -->
 					</a>
 				</div> <!-- /row -->
@@ -35,30 +35,30 @@
 		<div class="container">
 			<div class="row">
 				<h1 class="span12">
-					Vagrant will change how you work
+					<%= I18n.t :index_why_h1 %>
 				</h1>
 			</div> <!-- /row -->
 			<div class="row">
 				<div class="span6 offset3">
 					<!-- step 1 -->
 					<hgroup>
-					<h3>Set Up</h3>
+					<h3><%= I18n.t :index_why_step1_h3 %></h3>
 					<h4>
-						Download and install Vagrant within minutes on Mac OS X, Windows, or a popular distribution of Linux. No complicated setup process, just a simple to use OS-standard installer.
+						<%= I18n.t :index_why_step1_h4 %>
 					</h4>
 					</hgroup>
 					<!-- step 2 -->
 					<hgroup>
-					<h3>Configure</h3>
+					<h3><%= I18n.t :index_why_step2_h3 %></h3>
 					<h4>
-						Create a single file for your project to describe the type of machine you want, the software that needs to be installed, and the way you want to access the machine. Store this file with your project code.
+						<%= I18n.t :index_why_step2_h4 %>
 					</h4>
 					</hgroup>
 					<!-- step 3 -->
 					<hgroup>
-					<h3>Work</h3>
+					<h3><%= I18n.t :index_why_step3_h3 %></h3>
 					<h4>
-						Run a single command &mdash; "vagrant up" &mdash; and sit back as Vagrant puts together your complete development environment. Say goodbye to the "works on my machine" excuse as Vagrant creates identical development environments for everyone on your team.
+						<%= I18n.t :index_why_step3_h4 %>
 					</h4>
 					</hgroup>
 				</div> <!-- span12 -->
@@ -72,7 +72,7 @@
 				<div class="span12">
 
 					<h1 class="all-caps">
-						See how easy it is
+						<%= I18n.t :index_get_started_h1 %>
 					</h1>
 					<pre>
 $ vagrant box add base http://files.vagrantup.com/lucid32.box
@@ -84,7 +84,7 @@ $ vagrant up
 				<div class="row">
 					<a href="http://docs.vagrantup.com/v1/docs/getting-started/index.html">
 						<div class="button white-button with-carat span5 offset3">
-							<span>get started&raquo;</span>
+							<span><%= I18n.t :index_get_started_button %></span>
 						</div> <!-- /span -->
 					</a>
 				</div> <!-- /row -->
@@ -96,7 +96,7 @@ $ vagrant up
 				<div class="row">
 					<div class="customers-content span12">
 						<h1 class="all-caps">
-							Trusted by
+							<%= I18n.t :index_customers_h1 %>
 						</h1>
 						<div class="customer-logos">
 							<img src="/images/customers.png" alt="customers" width="941" height="111" />
