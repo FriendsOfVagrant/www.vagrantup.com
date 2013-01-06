@@ -1,13 +1,17 @@
 pt_BR:
+# layouts/layout.erb
   layout_header_nav_downloads:      'Downloads'
   layout_header_nav_documentation:  'Documentação'
   layout_header_nav_support:        'Suporte'
   layout_header_nav_about:          'Sobre'
-  layout_footer_nav_documentation: 'Documentação'
+  layout_header_nav_title_en:       'site em inglês'
+  layout_header_nav_title_pt_BR:    'site em português do Brasil'
+  layout_footer_nav_documentation:  'Documentação'
   layout_footer_nav_about:          'Sobre'
   layout_footer_nav_support:        'Suporte'
   layout_footer_nav_download:       'Download'
 
+# localizable/index.html.erb
   index_h1_line1:     'Ambientes de'
   index_h1_line2:     'desenvolvimento'
   index_h1_line3:     'fáceis.'
@@ -24,3 +28,32 @@ pt_BR:
   index_get_started_h1:     'Veja como é fácil'
   index_get_started_button: 'guia de iniciação&raquo;'
   index_customers_h1: 'Quem confia'
+
+# localizable/_sidebar_about.erb
+  sidebar_about_about:    'Sobre o Vagrant'
+  sidebar_about_sponsors: 'Patrocinadores do Projeto'
+  sidebar_about_github:   'vagrant no github'
+
+# localizable/about.html.erb
+  about_sidebar_title:  'Sobre'
+  about_h2:             'Sobre o Vagrant'
+  about_p_line1:        'O Vagrant é uma ferramenta para criação de ambientes de desenvolvimento completos. Com um fluxo de trabalho fácil de seguir e com foco em automação, o Vagrant diminui o tempo de configuração de ambientes de desenvolvimento, maximiza a paridade dev/prod e faz com que a desculpa "na minha máquina funciona" seja coisa do passado.'
+  about_p_line2:        'O Vagrant foi criado em janeiro de 2010 por <a href="http://twitter.com/mitchellh">Mitchell Hashimoto</a>. Por quase 3 anos, o Vagrant foi um projeto paralelo para o Mitchel, um projeto que ele trabalhava em suas horas vagas depois do emprego de tempo integral. Durante esse período, o Vagrant cresceu para ser confiado e ser usado por, desde pessoas isoladas, até equipes inteiras de desenvolvimento em grandes empresas.'
+  about_p_line3:        'Em novembro de 2012, a <a href="http://www.hashicorp.com">HashiCorp</a> foi criada por Mitchell para manter o desenvolvimento do Vagrant em tempo integral. A HashiCorp desenvolve funções comerciais e fornece suporte e treinamento profissional para o Vagrant.'
+  about_p_line4:        'O Vagrant continua, e sempre será, um projeto licenciado livremente e open source. Cada versão do Vagrant é um trabalho de centenas de contribuições pessoais ao <a href="http://github.com/mitchellh/vagrant">projeto open source</a>.'
+
+# localizable/sponsors.html.erb
+  sponsors_sidebar_title: 'Sobre'
+  sponsors_h2:            'Patrocinadores do Projeto'
+  sponsors_p_line1:       'As empresas abaixo merecem reconhecimento especial por suas contribuições ao Vagrant. Essas empresas fornecem de forma consistente os recursos que permitem que o projeto Vagrant funcione sem problemas, como a cobertura dos custos com hospedagem, o fornecimento de máquinas para testes, doação de seus serviços etc.'
+
+# localizable/support.html.erb
+  support_sidebar_title: 'Suporte'
+  support_h2_support: 'Suporte'
+  support_p_line1: 'Se você estiver com problemas no uso do Vagrant, quiser dicas gerais, achar que pode ter encontrado um bug, ou quiser entrar em contato com um humano por alguma razão, existem vários canais de suporte disponíveis.'
+  support_p_line2: 'Pacotes de suporte profissional estão a caminho. Até lá, a comunidade Vagrant é bem atenciosa e pode fornecer auxílio. Se você precisa de auxílio profissional agora, favor contatar <a href="mailto:hello@hashicorp.com">hello@hashicorp.com</a> e podemos combinar algo com cobrança por incidente.'
+  support_h2_community_support: 'Suporte na Comunidade'
+  support_p_community_support: 'O Vagrant tem uma comunidade grande e ativa de pessoas extremamente felizes em ajudar tanto recém-chegados quanto veteranos.'
+  support_p_irc: '<strong>IRC:</strong> <code>#vagrant</code> na Freenode. O IRC fornece um bate-papo em tempo real onde se consegue ajuda. Observe que a qualidade e a disponibilidade da assistência depende bastante do horário e de quem esteja ativo naquele momento no canal.'
+  support_p_mailing_list: '<strong>Lista de discussão:</strong> <a href="http://groups.google.com/group/vagrant-up">Vagrant no Google Groups</a>. A lista de discussão tem milhares de pessoas que se envolvem diariamente nas discussões ativas. Uma resposta pode demorar alguns dias aqui, mas suas dúvidas serão vistas por muito mais pessoas.'
+  support_p_bug_tracker: '<strong>Bug Tracker:</strong> <a href="https://github.com/mitchellh/vagrant/issues">Issue Tracker no GitHub</a>. Ele é apenas para reportar bugs encontrados, favor não utilizar como um meio de suporte.'

@@ -11,7 +11,7 @@
 					<aside class="sidebar-nav">
 
 					<!-- page title -->
-					<h1 class="all-caps"><%= current_page.data.sidebar_title || "" %></h1>
+					<h1 class="all-caps"><%= I18n.t(current_page.data.sidebar_title) || "" %></h1>
 
 					<% if current_page.data.sidebar_template %>
 						<%= partial "sidebar_#{current_page.data.sidebar_template}" %>
